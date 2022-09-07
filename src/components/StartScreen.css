@@ -1,0 +1,9 @@
+
+.start h1 {
+  font-size: calc(5vh + 2vw);
+  white-space: nowrap;
+    text-shadow: 1px 1px 8px lightgray,
+    2px 2px 8px black;
+
+}
+
