@@ -54,6 +54,7 @@ const Game = ({
             type="text"
             name="letter"
             maxLength="1"
+            pattern="[a-z]+"
             onChange={(e) => setLetter(e.target.value)}
             required
             value={letter}
