@@ -54,7 +54,7 @@ const Game = ({
             type="text"
             name="letter"
             maxLength="1"
-            pattern="[a-z]+"
+            pattern="[a-zç]+"
             title="Somente letras minúsculas são permitidas"
             onChange={(e) => setLetter(e.target.value)}
             required
